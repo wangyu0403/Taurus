@@ -1,0 +1,2 @@
+# Taurus
+autotest_pytest
