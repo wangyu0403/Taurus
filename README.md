@@ -1,2 +1,2 @@
 # Taurus
-autotest_pytest
+framework:pytest
