@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from utils.logger import *
 
 import pytest
 
@@ -26,6 +27,7 @@ def test_case_004():
 def test_case_005():
     print("this is test_case_005")
     assert 1 == 1
+    logging.info("this is test_case_005")
 
 
 # def func(x):
