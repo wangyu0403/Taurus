@@ -1,8 +1,11 @@
 # -*- coding: utf-8 -*-
-from utils.logger import *
-
 import pytest
+import os
+import sys
 
+curPath = os.path.abspath(os.path.dirname(__file__))
+rootPath = curPath[:curPath.find("Taurus") + len("Taurus")]
+from utils.logger import *
 
 def test_case_001():
     print("this is test_case_001")
